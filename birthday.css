@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2; /* Light pink background */
+    margin: 0;
+    padding: 0;
+    background-image: url('love-emoji.png'); /* Replace with your love emoji background image */
+    background-repeat: repeat; /* Emoji repeats in the background */
+    background-size: 50px 50px; /* Adjust emoji size */
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff69b4; /* Hot pink text */
+}
+
+img, video {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: 2px solid #ffb6c1; /* Light pink border */
+    object-fit: cover; /* Ensures media fits within the dimensions */
+}
+
+p {
+    font-size: 16px;
+    color: #ff1493; /* Deep pink text */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4; /* Hot pink background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+button:hover {
+    background-color: #ff1493; /* Deep pink on hover */
+}
